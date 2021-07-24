@@ -1,7 +1,8 @@
 import React from 'react';
 
 //Components
-import Header from './components/header'
+import Header from './components/header';
+import Home from './components/Home';
 
 
 //styles
@@ -14,7 +15,7 @@ const App = () => {
   return (
     <div className="App">
       <Header/>
-      Start here.
+      <Home/>
       <GlobalStyle/>
     </div>
   );
