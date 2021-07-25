@@ -9,7 +9,7 @@ export const Spinner = styled.div`
     animation: spin 0.8s linear infinite;
     margin: 20px auto;
 
-    @keyFrames spin{
+    @keyframes spin{
         0%{
             transform: rotate(0deg);
         }

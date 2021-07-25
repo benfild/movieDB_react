@@ -12,7 +12,7 @@ export const Image = styled.img`
         opacity: 0.8;
     }
 
-    @keyFrames animateThumb {
+    @keyframes animateThumb {
         from{
             opacity: 0;
         }
