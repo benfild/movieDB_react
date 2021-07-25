@@ -6,7 +6,7 @@ import { Image } from './Thumb.styles';
 
 const Thumb = ({image, movieId, clickable}) =>(
     <div>
-        <img src={image} alt='movie-thumb' />
+        <Image src={image} alt='movie-thumb' />
     </div>
 );
 
