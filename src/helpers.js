@@ -16,7 +16,7 @@ export const convertMoney = money => {
 };
 
 //Session storage persistance
-export const isPersistance = stateName => {
+export const isPersistedState = stateName => {
   const sessionState = sessionStorage.getItem(stateName);
 
   return sessionState && JSON.parse(sessionState);
