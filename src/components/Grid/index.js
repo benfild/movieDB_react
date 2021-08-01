@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React from "react";
 import PropTypes from 'prop-types';
 
 //styles
@@ -13,6 +13,6 @@ const Grid = ({header, children}) => (
 
 Grid.propTypes = {
     header: PropTypes.string
-}
+};
 
 export default Grid;
